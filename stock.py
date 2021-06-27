@@ -9,7 +9,7 @@ opens = []
 closes = []
 
 yahoo_financials = YahooFinancials(str(stock))
-stats=(yahoo_financials.get_historical_price_data("2010-01-01", "2021-06-22", "daily"))
+stats=(yahoo_financials.get_historical_price_data("2010-01-01", "2021-06-29", "daily"))
 
 i = 0
 for date in stats[str(stock)]["prices"]:
